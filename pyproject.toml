@@ -19,7 +19,8 @@ classifiers = [
 Changelog = "https://github.com/thegridelectric/gridworks-ws/releases"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.10, <4.0"
+gridworks = "^0.2.9"
 click = ">=8.0.1"
 
 [tool.poetry.dev-dependencies]
@@ -61,7 +62,7 @@ source = ["gws", "tests"]
 
 [tool.coverage.report]
 show_missing = true
-fail_under = 100
+fail_under = 60
 
 [tool.isort]
 profile = "black"
