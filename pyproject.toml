@@ -20,7 +20,7 @@ Changelog = "https://github.com/thegridelectric/gridworks-ws/releases"
 
 [tool.poetry.dependencies]
 python = ">=3.11, <4.0"
-# gridworks = "^0.2.9"
+gridworks = "^0.2.10"
 click = ">=8.0.1"
 
 [tool.poetry.dev-dependencies]
